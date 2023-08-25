@@ -20,3 +20,5 @@ pip freeze > req.txt
 
 pip install -r .\req.txt
 (instalar todos los requerimientos)
+
+c:/Users/cuc/Documents/25_08/src/app.py
