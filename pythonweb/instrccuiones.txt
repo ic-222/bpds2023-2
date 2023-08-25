@@ -17,3 +17,6 @@ pip install django
 
 pip freeze > req.txt
 (todo lo que se usa en este entorno)
+
+pip install -r .\req.txt
+(instalar todos los requerimientos)
