@@ -1,0 +1,24 @@
+instslar primero
+pip install virtualenv
+(Asegurarse que python esté agregado al path)
+
+pip list
+(tiene que estar virtualenv, reiniciar vs)
+
+virtualenv -p python3 env
+(para crear un entorno virtual -> se ejecuta en el directorio que seleccionemos)
+
+.\env\Scripts\activate 
+(asegurarse que los scrpipts estén habilitados -> desde powershell -> Set-ExecutionPolicy Unrestricted)
+
+instalar alguno de los siguientes (flask)
+pip install flask
+pip install django
+
+pip freeze > req.txt
+(todo lo que se usa en este entorno)
+
+pip install -r .\req.txt
+(instalar todos los requerimientos)
+
+c:/Users/cuc/Documents/25_08/src/app.py
